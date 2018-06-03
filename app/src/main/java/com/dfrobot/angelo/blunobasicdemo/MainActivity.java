@@ -57,8 +57,6 @@ public class MainActivity  extends BlunoLibrary {
 		onResumeProcess();														//onResume Process by BlunoLibrary
 	}
 	
-	
-	
 	@Override
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 		onActivityResultProcess(requestCode, resultCode, data);					//onActivityResult Process by BlunoLibrary
